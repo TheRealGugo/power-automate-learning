@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\pcbas\\\\Desktop\" -File | Where-Object { $_.Extension -in \".xlsx\", \".xls\", \".xlsm\", \".xlsb\", \".doc\", \".docx\", \".docm\", \".pbix\", \".pbit\" } | Select-Object Name, Extension, LastWriteTime)"
+    ]
+  }
+}
